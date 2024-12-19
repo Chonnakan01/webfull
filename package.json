@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "author": "^1.0.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dependencies": "^0.0.1",
+    "express": "^4.19.0",
+    "license": "^1.0.3",
+    "mysql2": "^3.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
