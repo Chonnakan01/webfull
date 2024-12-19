@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "kanit";
+    src: url("./Kanit/Kanit-Regular.ttf");
+  }
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  
+    .BacktoRegister {
+      padding: 10px 20px;
+    }
+  
+    .userma {
+      font-size: 20px;
+    }
+    .userd {
+      padding: 5px;
+    }
+  
+    .delete, .edit {
+      padding: 3px 6px;
+    }
+  }
+  @media (max-width: 576px) {
+  }
+  body {
+    font-family: "kanit";
+  
+      background-image: url(https://i.redd.it/bpxxqqvps4h91.gif );
+      background: cover;
+    }
+  
+  .BacktoRegister{
+    a:link, a:visited {
+      background-color: #f44336;
+      color: white;
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+    
+    a:hover, a:active {
+      background-color: red;
+    }
+   
+  }
+    
+  
+  .userma{
+    font-size: 40px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    padding: auto;
+  }
+  .userd {
+    padding: 10px; 
+    background-color: rgb(202, 214, 222); 
+    text-align: left; 
+    margin: 0 auto; 
+    max-width: 1200px; /
+  }
+  
+  .delete { 
+      background-color: #f44336;
+      color: rgb(0, 0, 0);
+      padding: 3px 8px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block; 
+    }
+   .edit {
+    background-color: #f4e136;
+      color: rgb(0, 0, 0);
+      padding: 3px 8px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+   
+  
+  
+  
+  

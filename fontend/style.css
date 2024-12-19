@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "kanit";
+    src: url("./Kanit/Kanit-Regular.ttf");
+  }
+
+  @media screen and (max-width: 768px) {
+    .flex { 
+      flex-direction: column; 
+    }
+    .header { 
+      font-size: 15px; 
+    }
+    .container1, .container2, .container3 { 
+      max-width: 100%;
+      margin-right: 0;
+    }
+    .button {
+      width: auto; 
+    }
+    .goto-user {
+      a {
+        padding: 10px 15px;
+  }
+}
+  }
+  body {
+    font-family: "kanit";
+    background-image: url(https://i.redd.it/bpxxqqvps4h91.gif);
+    background: cover;
+  }
+  .Point{
+    font-size: 40px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    padding: auto;
+  }
+  .wrapper {
+    display: flex;
+    justify-content:center
+  }
+  .container1 { 
+    width: 100%;
+    max-width: 400px; 
+    margin-right: auto;
+    background-color: rgba(1, 237, 111, 0.975);
+    padding: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+  .container2 {
+    width: 100%;
+    max-width: 400px; 
+    margin-right: auto;
+    background-color: rgba(209, 236, 91, 0.975);
+    padding: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+  .container3 {
+    width: 100%;
+    max-width: 400px; 
+    margin-right: auto;
+    background-color: rgba(236, 91, 103, 0.975);
+    padding: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;  
+    }
+  
+ 
+  .header {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+   
+  }
+  .header2 {
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    
+  }
+  
+  .header-form {
+    width: 150px;
+  }
+   
+  .flex {
+    display: flex;
+  }
+  
+  .form-input {
+    margin-bottom: 10px;
+    
+  }
+
+  .center {
+    text-align: center;
+  }
+  
+  input.form,
+  textarea {
+    border: 1px rgb(47, 40, 40) solid;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .button {
+    border: 0;
+    width: 10%;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: 40px;
+  }
+  .message {
+    background-color: pink;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: none;
+  }
+  .message.success {
+    background-color: rgb(7, 255, 7);
+    display: block;
+  }
+  
+  .message.danger {
+    background-color: rgb(255, 7, 7);
+    display: block;
+  }
+  .goto-user {
+    a:link, a:visited {
+      background-color: #f44336;
+      color: white;
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+    
+    a:hover, a:active {
+      background-color: red;
+    }
+   
+  }
+  
+  
+ 

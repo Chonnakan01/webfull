@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ส่วนที่ไม่แสดงออกไปในหน้าจอของ Browser -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Point of Sale System</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://shorturl.at/aepI8">
+</head>
+
+<body>
+  
+  <div class="goto-user"><a href="user.html">Go to Data management</a></div>
+  
+ 
+    
+    <div class="Point">Point of Sale System ระบบบันทึกข้อมูลการซื้อขายสินค้า 
+     </div>
+ <div class="wrapper">
+  <div class="container1">
+    <div class="header2">รายละเอียดสินค้า</div>
+    <div class="flex form-input">
+      <div class="header-form">ชื่อสินค้า</div>
+      <input class="form" name="Productname" type="text">
+    </div>
+    <div class="flex form-input">
+      <div class="header-form">ราคา</div>
+      <input class="form" name="Price" type="number">
+    </div>
+    <div class="flex form-input">
+      <div class="header-form">จำนวนคงเหลือ</div>
+      <input class="form" name="Amount" type="number">
+    </div></div>
+
+    <div class="container2"><div class="header2">ข้อมูลการซื้อขาย</div>
+      <div class="flex form-input"> 
+      <label for="Date	">วันที่:</label>
+      <input type="date" name="Date" id="Date">
+
+    </div>
+    
+    <div class="flex form-input">
+      <label>เวลา: </label> 
+      <input type="time" id="Time" name="Time"  />
+    </div>
+    <div class="flex form-input">
+      <div class="header-form">รหัสสินค้า</div>
+      <input class="form" name="Productid" type="text">
+    </div>
+    <div class="flex form-input">
+      <div class="header-form">จำนวนที่ขาย</div>
+      <input class="form" name="Sales" type="number">
+    </div></div>
+    
+    
+    <div class="container3">
+      <div class="header2">ข้อมูลลูกค้า</div>
+    <div class="flex form-input">
+      <div class="header-form2">ชื่อ</div>
+      <input class="form" name="NameCustomer" type="text">
+    </div>
+    <div class="form-input">
+      ที่อยู่
+      <div>
+        <textarea name="Address"></textarea>
+      </div>
+    </div>
+    <div class="flex form-input">
+      <div class="header-form">เบอร์โทรศัพท์</div>
+      <input class="form" name="Phone" type="text">
+    </div></div>
+ </div>
+</div> 
+    
+  
+    
+
+    <div id="message" class ="message"></div>
+    <div class="center">
+      <button onclick="submitData()" class="button">ส่งข้อมูล</button>
+    </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
+
